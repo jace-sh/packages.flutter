@@ -11,12 +11,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  epubx: ^3.0.0
+  epubx:
+    git:
+      url: https://github.com/jace-sh/epubx.dart.git
+      ref: dev # branch name
   equatable: ^2.0.3
   html: ^0.15.0
   flutter_html: ^3.0.0-alpha.6
   scrollable_positioned_list: ^0.3.2
-  collection: ^1.16.0
   universal_file: ^1.0.0
 
 dev_dependencies:
